@@ -70,22 +70,27 @@ nav a:hover{
 .input{
     width: 174px;
     height: 52px;
+    border: none;
+    outline: none;
     border-radius: 8px;
     background: #FFF;
     border: none;
     color: rgba(19, 19, 24, 0.50);
     font-size: 1rem;
     font-weight: 400;
+    padding-left: 5px;
 }
 .selector{
     width: 174px;
     height: 52px;
     border: none;
+    outline: none;
     border-radius: 8px;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
     font-size: 1rem;
     font-weight: 400;
+    padding-left: 05px;
 }
 .btn-primary{
     width: 174px;
@@ -135,12 +140,82 @@ nav a:hover{
     text-align: center;
     font-size: 1.25rem;
     font-weight: 800;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 .img-1{
     width: 540px;
     height: 550px;
     border-radius: 16px;
+}
+.destination-tittle{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;   
+    margin-top: 48px;
+}
+.img-2{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+.choosing-tittle{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.hotel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+.background-1{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+}
+.background-2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+    margin-left: 34%;
+    margin-top: 25px;
+}
+.hotel-tittle{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.hotel-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -172,7 +247,6 @@ nav a:hover{
         font-weight: 800;
     }
     .banner-description,.tour-description{
-        /* color: #FFF; */
         font-size: 14px;
     }
     .popular-tour-section{
@@ -186,9 +260,33 @@ nav a:hover{
         height: 342px;
         border-radius: 16px;
     }
-    .tour-tittle{
+    .tour-tittle,.destination-tittle,.choosing-tittle,.hotel-tittle{
         font-size: 20px;
     }
-
-
+    .destination-description,.hotel-description{
+        font-size: 14px;
+    }
+    .row,.hotel{
+        flex-direction: column;
+    }
+    .row img,.img-2{
+        width: 335px;
+        height: 176px;
+        border-radius: 16px;
+    }
+    .background-1{
+        width: 335px;
+        height: 260px;
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+    .background-2{
+        width: 335px;
+        height: 260px;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+        margin-left: 09%;
+    }
 }
