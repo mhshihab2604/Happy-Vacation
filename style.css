@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.nav-tittle{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.check{
+    display: none;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+nav a:hover{
+    color: #FF5400;
+}
+.banner{
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 50px auto;
+    padding-top: 155px;
+}
+.banner-tittle{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.selector{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.background{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-tittle{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    nav ul{
+        display: none;
+    }
+    .check{
+        display: block;
+    }
+    .banner{
+        width: 400px;
+        height: 483px;
+    }
+    .background{
+        flex-direction: column;
+    }
+    .selector,.input,.btn-primary{
+        width: 255px;
+        height: 52px;
+        border-radius: 8px;
+    }
+    .banner-tittle{
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .banner-description{
+        color: #FFF;
+        font-size: 14px;
+    }
+
+}
