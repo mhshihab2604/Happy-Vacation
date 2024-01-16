@@ -113,6 +113,42 @@ nav a:hover{
     margin-top: 50px;
 }
 /* main section styles */
+.service-tittle{
+    color: #131318;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.info-tittle{
+    color: #131318;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.calculate,.settings{
+    margin-top: 40px;
+}
+.info-description {
+    color: #131318;
+    font-size: 1.125rem;
+    margin-top: 20px;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.about-info{
+    text-align: center;
+    width: 355.143px;
+    height: 417.658px;
+    border-radius: 47.884px;
+    background: white;
+    box-shadow: 10px 10px 10px 10px;
+    margin-top: 40px;
+}
 .popular-tour-section{
     display: flex;
     justify-content: center;
@@ -206,15 +242,15 @@ nav a:hover{
     top: 45%;
     left: 37%;
     color: #FFF;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 .country-name-7{
     position: absolute;
     top: 45%;
-    left: 35%;
+    left: 34%;
     color: #FFF;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 .country-name-2{
@@ -222,15 +258,15 @@ nav a:hover{
     top: 45%;
     left: 30%;
     color: #FFF;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 .country-name-3{
     position: absolute;
     top: 45%;
-    left: 26%;
+    left: 25%;
     color: #FFF;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 .country-name-4{
@@ -238,7 +274,7 @@ nav a:hover{
     top: 45%;
     left: 25%;
     color: #FFF;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 .country-name-5{
@@ -246,15 +282,15 @@ nav a:hover{
     top: 45%;
     left: 35%;
     color: #FFF;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 .country-name-6{
     position: absolute;
     top: 45%;
-    left: 31%;
+    left: 30%;
     color: #FFF;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 .choosing-tittle{
@@ -400,6 +436,35 @@ input{
     font-weight: 800;
     text-align: center;
 }
+/* footer section styles */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 110px;
+    padding-top: 110px;
+}
+.footer-tittle{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-section{
+    text-align: center;
+    max-width: 1900px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-section i{
+    margin-right: 25px;
+    margin-top: 33px;
+}
+.hr-2{
+    width: 872px;
+    height: 1px;
+    margin: 50px auto;
+}
 @media screen and (max-width: 600px) {
     .nav-tittle{
         font-size: 30px;
@@ -416,7 +481,7 @@ input{
         height: 483px;
         padding-top: 20px;
     }
-    .background{
+    .background,.info-container,.popular-tour-section,.flex-row,.hotel,.place-section,.newslatter-section{
         flex-direction: column;
     }
     .selector,.input,.btn-primary{
@@ -432,11 +497,8 @@ input{
         font-size: 22px;
         font-weight: 800;
     }
-    .banner-description,.tour-description{
+    .banner-description,.tour-description,.destination-description,.hotel-description{
         font-size: 14px;
-    }
-    .popular-tour-section{
-        flex-direction: column;
     }
     .head{
         padding-left: 20px;
@@ -446,14 +508,8 @@ input{
         height: 342px;
         border-radius: 16px;
     }
-    .tour-tittle,.destination-tittle,.choosing-tittle,.hotel-tittle,.place-tittle{
+    .tour-tittle,.destination-tittle,.choosing-tittle,.hotel-tittle,.place-tittle,.service-tittle{
         font-size: 20px;
-    }
-    .destination-description,.hotel-description{
-        font-size: 14px;
-    }
-    .flex-row{
-        flex-direction: column;
     }
     .row .i-1{
         width: 335px;
@@ -511,14 +567,14 @@ input{
         font-size: 28px;
         font-weight: 800;
     }
-    .hotel{
-        flex-direction: column;
+    .country-name-7{
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
     }
-    /* .row img,.img-2{
-        width: 335px;
-        height: 176px;
-        border-radius: 16px;
-    } */
     .background-1{
         width: 335px;
         height: 260px;
@@ -532,12 +588,6 @@ input{
         border-radius: 16px;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
-    }
-    .place-section{
-        flex-direction: column;
-    }
-    .newslatter-section{
-        flex-direction: column;
     }
     .video{
         width: 335px;
@@ -579,6 +629,18 @@ input{
         font-size: 21px;
         font-weight: 800;
         text-align: center;
+    }
+    .footer-tittle{
+        color: #131318;
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+    .footer-section{
+        width: 100%;  
+    }
+    .hr-2{
+        width: 335px;
+        height: 1px;
     }
 
 }
