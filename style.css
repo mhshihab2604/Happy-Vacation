@@ -5,6 +5,7 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
+/* header section styles */
 .navbar{
     display: flex;
     justify-content: center;
@@ -161,17 +162,100 @@ nav a:hover{
     font-weight: 400;
     margin-top: 24px;
 }
-.row{
+.flex-row{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 25px;   
-    margin-top: 48px;
+    gap: 25px;
+    margin-top: 50px;
 }
-.img-2{
+.row{
+    position: relative;
+}
+.row img{
     width: 573px;
     height: 300px;
     border-radius: 16px;
+}
+.row .srilanka{
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+}
+.row .america{
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+}
+.row .bangladesh{
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+}
+.row .kashmir{
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+}
+.row .bandarban{
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+}
+.country-name-1{
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.country-name-7{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.country-name-2{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.country-name-3{
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.country-name-4{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.country-name-5{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.country-name-6{
+    position: absolute;
+    top: 45%;
+    left: 31%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
 }
 .choosing-tittle{
     color: #131318;
@@ -202,8 +286,7 @@ nav a:hover{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     padding: 20px;
-    margin-left: 34%;
-    margin-top: 25px;
+    margin: 25px auto;
 }
 .hotel-tittle{
     color: #131318;
@@ -217,7 +300,106 @@ nav a:hover{
     font-weight: 400;
     margin-top: 10px;
 }
-
+.place-tittle{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.place-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.btn-2{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.video{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+.newslatter-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+    position: relative;
+}
+.news{
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    width: 480px;
+    height: 440px;
+    padding: 30px;
+}
+.hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 24px 0;
+}
+input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+}
+.btn-3{
+    width: 393px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 25px;
+}
+.img-3{
+    width: 670px;
+    height: 470px;
+    border-radius: 16px;
+}
+.img-4{
+    background-image: url(Images/Rectangle\ 14.png);
+    position: absolute;
+    right: 329px;
+    bottom: 80px;
+    width: 300px;
+    height: 100px;
+    transform: rotate(-30deg);
+    border-radius: 16px;
+    background: #FF5400;
+    padding-top: 15px;
+}
+.img-p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+}
+.img-h3{
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+}
 @media screen and (max-width: 600px) {
     .nav-tittle{
         font-size: 30px;
@@ -232,6 +414,7 @@ nav a:hover{
     .banner{
         width: 400px;
         height: 483px;
+        padding-top: 20px;
     }
     .background{
         flex-direction: column;
@@ -240,6 +423,9 @@ nav a:hover{
         width: 255px;
         height: 52px;
         border-radius: 8px;
+    }
+    .input{
+        padding-left: 0;
     }
     .banner-tittle{
         color: #FFF;
@@ -260,20 +446,79 @@ nav a:hover{
         height: 342px;
         border-radius: 16px;
     }
-    .tour-tittle,.destination-tittle,.choosing-tittle,.hotel-tittle{
+    .tour-tittle,.destination-tittle,.choosing-tittle,.hotel-tittle,.place-tittle{
         font-size: 20px;
     }
     .destination-description,.hotel-description{
         font-size: 14px;
     }
-    .row,.hotel{
+    .flex-row{
         flex-direction: column;
     }
-    .row img,.img-2{
+    .row .i-1{
+        width: 335px;
+        height: 176px;
+    }
+    .image-sizing{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .country-name-1{
+        position: absolute;
+        top: 45%;
+        left: 27%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .country-name-2{
+        position: absolute;
+        top: 45%;
+        left: 28%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .country-name-3{
+        position: absolute;
+        top: 45%;
+        left: 17%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .country-name-4{
+        position: absolute;
+        top: 45%;
+        left: 29%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .country-name-5{
+        position: absolute;
+        top: 45%;
+        left: 22%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .country-name-6{
+        position: absolute;
+        top: 45%;
+        left: 22%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .hotel{
+        flex-direction: column;
+    }
+    /* .row img,.img-2{
         width: 335px;
         height: 176px;
         border-radius: 16px;
-    }
+    } */
     .background-1{
         width: 335px;
         height: 260px;
@@ -287,6 +532,53 @@ nav a:hover{
         border-radius: 16px;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
-        margin-left: 19%;
     }
+    .place-section{
+        flex-direction: column;
+    }
+    .newslatter-section{
+        flex-direction: column;
+    }
+    .video{
+        width: 335px;
+        height: 200px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    }
+    .news{
+        width: 340px;
+        height: 400px;
+    }
+    .hr{
+        width: 288px;
+        height: 1px;
+    }
+    input,.btn-3{
+        width: 288px;
+        height: 52px;
+    }
+    .img-3{
+        width: 340px;
+        height: 300px;
+    }
+    .img-4{
+        width: 200px;
+        height: 60px;
+        transform: rotate(-19.628deg);
+        left: 180px;
+        top: 700px;
+        position: absolute;
+    }
+    .img-p{
+        color: #FFF;
+        text-align: center;
+        font-size: 15.854px;
+    }
+    .img-h3{
+        color: #FFF;
+        font-size: 21px;
+        font-weight: 800;
+        text-align: center;
+    }
+
 }
