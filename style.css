@@ -113,6 +113,8 @@ nav a:hover{
     margin-top: 50px;
 }
 /* main section styles */
+
+/* bonus section styles start */
 .service-tittle{
     color: #131318;
     text-align: center;
@@ -146,9 +148,11 @@ nav a:hover{
     height: 417.658px;
     border-radius: 47.884px;
     background: white;
-    box-shadow: 10px 10px 10px 10px;
+    box-shadow: 06px 06px 06px 06px;
     margin-top: 40px;
 }
+/* bonus section styles end */
+
 .popular-tour-section{
     display: flex;
     justify-content: center;
